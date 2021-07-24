@@ -1,0 +1,30 @@
+{
+  "name": "testing-js",
+  "version": "1.0.0",
+  "description": "Testing with Jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-techie/testing-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-techie/testing-js/issues"
+  },
+  "homepage": "https://github.com/paulo-techie/testing-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6"
+  }
+}
