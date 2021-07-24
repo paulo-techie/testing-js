@@ -36,6 +36,10 @@ test('Caesar Cipher - string with a key of 13', () => {
   expect(caesarCipher('test', 13)).toBe('grfg');
 });
 
-test('Caesar Cipher - string with numbers and non-alphanumeric characters', () => {
+test('Caesar Cipher - string with mixed case', () => {
+  expect(caesarCipher('Test', 13)).toBe('Grfg');
+});
+
+test('Caesar Cipher - string with numbers and punctuation', () => {
   expect(caesarCipher('10+2, is twelve!', 13)).toBe('10+2, vf gjryir!');
 });
